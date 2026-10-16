@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Ship | Rajin: Edge of Darkness</title>
+<meta name="description" content="Explore Rajin, the living ship at the heart of the series. Spin the 3D model, see it from every angle, and study the blueprints.">
+<meta name="theme-color" content="#0d0a18">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Rajin: Edge of Darkness">
+<meta property="og:title" content="The Ship | Rajin: Edge of Darkness">
+<meta property="og:description" content="Explore Rajin, the living ship at the heart of the series. Spin the 3D model, see it from every angle, and study the blueprints.">
+<meta property="og:image" content="assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Big+Shoulders+Text:wght@400;600;700;800&family=Patrick+Hand&display=swap">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+</head>
+<body data-page="ship">
+<a class="skip" href="#main">Skip to the content</a>
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="index.html" aria-label="Rajin: Edge of Darkness, home">
+      <img src="assets/logo-small.webp" alt="" width="414" height="500">
+      <span>Rajin</span>
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="characters.html">Characters</a>
+      <a href="art.html">Concept Art</a>
+      <a href="ship.html" aria-current="page">The Ship</a>
+      <a href="timelapses.html">Timelapses</a>
+      <a href="story.html">Story</a>
+      <a href="then-and-now.html">Then &amp; Now</a>
+      <a href="updates.html">Updates</a>
+      <a class="tumblr-btn" data-tumblr href="https://rajinedgeofdarkness.tumblr.com" target="_blank" rel="noopener">Follow on Tumblr</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap page-head">
+    <span class="kicker">Home among the stars</span>
+    <h1>The Ship: Rajin</h1>
+    <p class="lede">Drag to spin the 3D model, pinch or scroll to zoom.</p>
+  </div>
+  <div class="wrap">
+    <div class="ship-stage">
+      <model-viewer src="assets/rajin-ship.glb" alt="A 3D model of Rajin, the ship" poster="assets/ship-view-side.webp" camera-controls auto-rotate auto-rotate-delay="0" rotation-per-second="14deg" interaction-prompt="none" environment-image="neutral" exposure="1.1" shadow-intensity="0" touch-action="pan-y"></model-viewer>
+      <span class="ship-hint">Drag to spin</span>
+    </div>
+  </div>
+  <section class="section"><div class="wrap"><div class="section-head"><h2>Every angle</h2></div><div class="grid" id="ship-views" style="--min:170px"></div></div></section>
+  <section class="section"><div class="wrap"><div class="section-head"><h2>Renders</h2></div><div class="grid" id="ship-renders" style="--min:220px"></div></div></section>
+  <section class="section"><div class="wrap"><div class="section-head"><h2>Blueprints</h2><a href="then-and-now.html">See how the ship evolved &rsaquo;</a></div><div id="blueprints"></div></div></section>
+</main>
+<footer class="site-foot">
+  <div class="wrap foot-in">
+    <img src="assets/logo-small.webp" alt="" width="414" height="500" loading="lazy">
+    <p data-credit style="max-width:62ch;margin:0">All artwork and writing by Susan. Website built with an AI coding assistant, with free textures from Magnific (formerly Freepik) and water animations by PIXEL80R and PI-SLICES.</p>
+    <p style="margin:0"><a data-tumblr href="https://rajinedgeofdarkness.tumblr.com" target="_blank" rel="noopener">@rajinedgeofdarkness on Tumblr</a><br>&copy; 2026 Susan. All rights reserved.</p>
+  </div>
+</footer>
+<script src="content.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
